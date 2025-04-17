@@ -6,7 +6,7 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCm833nz4mA3d0NpS5XKDqAmEnkH5QFzZ8",
+  apiKey: "//AIzaSyCm833nz4mA3d0NpS5XKDqAmEnkH5QFzZ8//",
   authDomain: "taskmanager-75373.firebaseapp.com",
   projectId: "taskmanager-75373",
   storageBucket: "taskmanager-75373.appspot.com",
