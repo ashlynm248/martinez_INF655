@@ -1,0 +1,98 @@
+/* .navbar is the main section of the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e1e1e1;
+    position: relative;
+}
+
+/*.navbar.title is the title of the webpage, shown in the navbar */
+.navbar.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/* .menu-toggle is the toggle button so that mobile users are able to see the menu */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* .menu is the menu and items shown on larger screens, like desktops */
+.menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* .search is the search bar, it is rounded */
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+/* this is the cart's position */
+.cart {
+    position: relative;
+}
+
+/* this is the cart button, being able to see what items are in the cart, the button is rounded */
+.cart-button {
+    background-color: #f0f0f0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* this is the login button, allowing users to login, the button is rounded */
+.login-button {
+    background-color: #2d6dae;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* these are the css styles for the mobile menus */
+.mobile-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #000;
+}

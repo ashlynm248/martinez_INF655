@@ -1,0 +1,87 @@
+.home {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* .events-list are all of the events, they are shown in a grid format so that they are easy to see and find */
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* .event-card is the card that shows the event's information, it is rounded and has a shadow to make it look nice */
+.event-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: #fff;
+}
+
+/*The event-thumbnail is the image that shows the event*/
+.event-thumbnail {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/*the details-button is the button that shows the details of the event*/
+  .details-button {
+    background-color: #2d6dae;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+
+
+  .sort-buttons {
+    margin-bottom: 20px;
+  }
+  
+/*the sort buttons are rounded and have a shadow to make them look nice*/
+  .sort-buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #2d6dae;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin-top: 5px
+  }
+  
+  .search-bar:focus {
+    border-color: #007bff;
+  }
