@@ -9,4 +9,4 @@ Once the user want to add the event to the cart, they must hit the "Add to Cart"
 
 The user cannot access the cart or profile page until they are logged in. The user can log in from the login page, or sign up. 
 
-Once the login process happens the user can checkout and they will have booked their event. 
+Once the login process happens the user can checkout and they will have booked their event.  
